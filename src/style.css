@@ -53,3 +53,21 @@ h1 {
 .banner{
     width: 1200px;
 }
+
+#teams {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.ant-tarjeta {
+    padding: 12px;
+    text-align: center;
+    margin: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    background: beige;
+}
+
+.ant-descripcion {
+    text-align: justify;
+    justify-content: center;

@@ -1,6 +1,22 @@
 .body{
+    font-family: sans-serif;
     width: 1200px;
 }
+.servicios{
+    background-color: rgb(179, 164, 101);
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.servicios__contenedor{
+
+}
+
+.footer{
+    background-color: rgb(179, 152, 101);
+}
+
 .header{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 1200px;
@@ -70,4 +86,5 @@ h1 {
 
 .ant-descripcion {
     text-align: justify;
-    justify-content: center;
+  justify-content: center;
+}

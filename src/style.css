@@ -103,7 +103,7 @@ h1 {
 }
 
 .menu-principal__item > a {
-    color: aqua;
+    color: silver;
     text-decoration: none;
 }
 .menu-principal__item > a:hover{
@@ -116,7 +116,7 @@ h1 {
     width: 1200px;
 }
 
-#teams {
+#team {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
@@ -133,4 +133,13 @@ h1 {
 .ant-descripcion {
     text-align: justify;
   justify-content: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-desc, .contact {
+    width: 50%;
 }

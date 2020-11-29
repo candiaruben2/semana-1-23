@@ -1,6 +1,53 @@
-.body{
-    font-family: sans-serif;
+body
+{
+  font-family: sans-serif;
+  width: 1200px;
+}
+
+.noticia
+{
     width: 1200px;
+    background-color: salmon;
+    height: 100%;
+    display: inline-flex;
+}
+
+.noticia-individual
+{
+    width: 49%;
+    height: 100%;
+    display: inline-flex;
+}
+
+.imagen
+{
+    float: left; 
+    margin-top:30px;
+    margin-bottom:30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.noticia-titulo
+{
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.noticia-parrafo
+{
+    text-align: justify;
+    margin: 10px;
+}
+
+.noticia-link
+{
+    font-size: 10px;
+    float: right;
+    margin: 10px;
 }
 .servicios{
     background-color: rgb(179, 164, 101);
@@ -59,7 +106,6 @@ h1 {
     color: aqua;
     text-decoration: none;
 }
-
 .menu-principal__item > a:hover{
     text-decoration: underline;
     color: white;

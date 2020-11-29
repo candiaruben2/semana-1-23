@@ -1,3 +1,75 @@
+Introducción
+Se desarrolló una página web que emula una empresa de servicios musicales, utilizando las herramientas de HTML y CSS aprendidas en clase, a través del versionamiento de GitHub.
+
+Propósito
+Este documento describe las funcionalidades del sitio web
+
+Alcance
+El código desarrollado permite visualizar un sitio web con los servicios musicales y los integrantes del equipo desarrollador. Este sitio web no permite realizar compras dentro del mismo.
+
+Descripción del producto
+Los usuarios son aquellas personas interesadas en adquirir servicios musicales de grabación, edición de partituras y producción de espectáculos
+
+Funciones  del producto
+Este software permite la visualización de 5 secciones que contienen:
+1. Menú de Inicio
+2. Servicios
+3. Noticias
+4. Miembros del equipo
+5. Contacto y link al repositorio de GitHub
+
+Características del usuario
+Las capacidades que el usuario debe tener son mínimas, contar con un computador y un mouse para navegar por el sitio web
+
+Restricciones
+-EL sitio web solo es informativo
+-No permite hacer compras dentro del sitio
+-No permite generar solicitudes como generar nombre entre otras
+
+Requisitos específicos
+1.Secciónsuperior,cabeceraoheader:estaseccióndeberácontarconelmenúdenavegaciónatrespáginasinternasdelsitiowebysurespectivoenlacealinicio.Debe contar con una imagen que ocupe el ancho del sitio.El menú debe de estar en un tag  <nav></nav>.
+2.Seccióndeservicios:aquílosestudiantesdeberándividirenanchodelsitioen3partesyencadapartesedeberáincluirunservicio.Cadaserviciodebecontarconunabrevedescripción,unlogo,íconooimagenqueloidentifiqueyunenlacealdetalledelosservicios.Elelementodondeestánlosserviciosdebedetenerunid=”services”
+3.Seccióndenoticias:Elestudianteencargadodelaseccióndenoticias,deberádividirelanchodelsitioweben2filasydoscolumnasparapresentar4noticias.Cadanoticiadebecontarconunresumen,unaimagenyunenlacealeerlanoticiacompleta.El elemento donde están los servicios debe de tener un id=”news”
+4.Seccióndeequipo:Elestudiantedeberádividirelanchodelsitioentreelnúmerodeparticipantesdelequipoeincluirjuntoconcadaunounafotooimagen,elnombreyalgún dato como la institución educativa, edad, pasatiempo, entre otros.El elemento donde están los servicios debe de tener un id=”team”
+5.SecciónFooteropiedelsitio:elestudiantedeberácrearelpiedelsitiowebendondeseincluyeinformacióndecontacto,deberáestardivididoendospartes,enunasetendrálainformacióndelsitiowebcomoelmotivantedeldesarrolloyelenlacealrepositoriodegithub,yenlaotraloscontactodelosmiembrosdelequipocon sus nombres y roles. La sección debe de estar en un tag <footer></footer>
+Requisitos  funcionales
+1- El software debe mostrar un banner un menú de inicio
+2. Debe visualizar una sección de servicios
+3. Debe mostrar una sección de noticias con un link
+4. VIsualizar los miembros del equipo
+5. Debe contener un footer con información de contacto.
+Requisitos no funcionales
+-El ancho del sitio debe ser 1200 pixeles
+-Que las fotos sean libre de derechos de autor
+-Que sea vea en cualquier navegador
+-Que los links lleven a la página web deseada
+
+Historia de Usuario 1: Header
+Nombre: Menú de Inicio
+Funcionalidad: mostrar un menú con los títulos inicio, servicio, noticias y equipo
+Criterio de Aceptación: que los enlaces del menú redirijan a las secciones del sitio web
+
+Historia de Usuario 2: Servicios
+Nombre: Servicios
+Funcionalidad: mostrar 3 servicios musicales, grabación, edición de partituras y producción de eventos
+Criterio de Aceptación: despliegue exitoso de los servicios ofrecidos
+
+Historia de Usuario 3: Noticias
+Nombre: Noticias
+Funcionalidad: mostrar 4 noticias del ámbito musical
+Criterio de Aceptación: redirigir a las noticias publicadas
+
+Historia de Usuario 4: Equipo
+Nombre: Miembros del Equipo
+Funcionalidad: mostrar los miembros del equipo desarrollador
+Criterio de Aceptación: despliegue exitoso de los miembros del equipo
+
+Historia de Usuario 5: Footer
+Nombre: Footer
+Funcionalidad: mostrar los datos de contacto y roles de los miembros del equipo
+Criterio de Aceptación: despliegue exitoso de la información de datos de contacto
+
+
 # Proyecto final Sprint I
 
 Desarrollar un sitio web que conste de 5 secciones, cada sección deberá ser realizada por un estudiante. Los diferentes elementos del sitio web contarán con estilos personalizados creados por los estudiantes y deberán estar condensados en una sola hoja de estilos.

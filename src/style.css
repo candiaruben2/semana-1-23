@@ -1,0 +1,18 @@
+.body{
+    font-family: sans-serif;
+    width: 1200px;
+}
+.servicios{
+    background-color: rgb(179, 164, 101);
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.servicios__contenedor{
+
+}
+
+.footer{
+    background-color: rgb(179, 152, 101);
+}
